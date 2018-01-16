@@ -21,6 +21,28 @@
     text-indent: -9999px;
 }
 
+.bloc-logo-text {
+    position: relative;
+    width: 225px;
+    height: 50px;
+    float: left;
+}
+
+.bloc-logo-text canvas,
+.bloc-logo-text .logo-text-mask {
+    display: block;
+    width: 225px;
+    height: 50px;
+}
+
+.bloc-logo-text .logo-text-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 225px;
+    background-image: url("../img/logo-text-mask.png");
+    text-indent: -9999px;
+}
 /*
   custom styles text
  */

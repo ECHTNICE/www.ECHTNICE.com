@@ -34,7 +34,12 @@
               <a href="index.html" class="logo-mask">ECHTNICE</a>
           </div>
 
-        <a class="navbar-brand pull-right" href="#"><h1 class="shine-object" id="shine-object">ECHTNICE</h1></a>
+        <a class="pull-right" href="#">
+            <div class="bloc-logo-text">
+                <canvas id="logo-text-canvas"></canvas>
+                <a href="index.html" class="logo-text-mask">ECHTNICE</a>
+            </div>
+        </a>
       </div>
     </nav>
 
@@ -240,6 +245,25 @@
     $(function(){
       var granimInstance = new Granim({
         element: '#logo-canvas',
+        direction: 'left-right',
+        opacity: [1, 1],
+        states : {
+            "default-state": {
+                gradients: [
+                    ['#EB3349', '#F45C43'],
+                    ['#FF8008', '#FFC837'],
+                    ['#4CB8C4', '#3CD3AD'],
+                    ['#24C6DC', '#514A9D'],
+                    ['#FF512F', '#DD2476'],
+                    ['#DA22FF', '#9733EE']
+                ],
+                transitionSpeed: 10000
+            }
+        }
+      });
+
+      var granimTextInstance = new Granim({
+        element: '#logo-text-canvas',
         direction: 'left-right',
         opacity: [1, 1],
         states : {
