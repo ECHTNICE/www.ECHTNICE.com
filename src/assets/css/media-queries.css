@@ -42,10 +42,10 @@
 	
 	/* logo */
     .coming-soon .logo a {
-    	background-image: url(../img/logo-echtnice.png) !important; background-repeat: no-repeat !important; background-size: 350px 300px !important;
+    	background-image: url(../img/logo-echtnice.png) !important; background-repeat: no-repeat !important; background-size: 315px 300px !important;
     }
     .coming-soon .logo a:hover {
-    	background-image: url(../img/logo-echtnice-hover.png) !important; background-repeat: no-repeat !important; background-size: 350px 300px !important;
+    	background-image: url(../img/logo-echtnice-hover.png) !important; background-repeat: no-repeat !important; background-size: 315px 300px !important;
     }
     .coming-soon .logo a:before {
     	content: url(../img/logo-echtnice-hover.png);
