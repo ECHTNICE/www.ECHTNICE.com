@@ -88,6 +88,7 @@ body {
   position: relative;
   width: 100%;
   margin-left: -1px;
+  margin-top: 90px;
   background-size: 100% 525px;
   position: relative;
   background-position: center center;
@@ -96,6 +97,7 @@ body {
   min-height: 750px;
   background-image: url('img/echtnice-workplace.jpg');
   background-size: cover;
+  
 
   &:before {
     background-color: rgba(0,0,0,0.15);
