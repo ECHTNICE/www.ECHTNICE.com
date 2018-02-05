@@ -67,7 +67,7 @@ body {
     .navbar-brand {
         color: $topcolor;
         font-size: 32px;
-		
+
 		img.navbar-logo{
 			height: 64px;
 		}
@@ -97,7 +97,7 @@ body {
   min-height: 750px;
   background-image: url('img/echtnice-workplace.jpg');
   background-size: cover;
-  
+
 
   &:before {
     background-color: rgba(0,0,0,0.15);
@@ -224,6 +224,7 @@ body {
 
     .sub {
       margin: 0;
+      width: auto;
     }
   }
 
