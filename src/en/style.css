@@ -544,3 +544,9 @@ body {
     height: 105px !important;
   }
 }
+
+@media (max-width: 992px) {
+  .blc_hero {
+    min-height: 420px;
+  }
+}
