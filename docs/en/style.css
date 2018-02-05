@@ -12,7 +12,7 @@
 body {
     font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;
     font-size: 16px;
-    background: #f9fafc;
+    background: #fff;
     color: #3c4a54
 }
 
@@ -83,7 +83,7 @@ body {
     position: relative;
     width: 100%;
     margin-left: -1px;
-    margin-top: 90px;
+    margin-top: 88px;
     background-size: 100% 525px;
     position: relative;
     background-position: center center;
@@ -217,7 +217,8 @@ body {
     z-index: 10;
     margin-top: -120px;
     margin-bottom: 80px;
-    position: relative
+    position: relative;
+    padding-top: 50px;
 }
 
 .blc_feature .heading {
@@ -225,10 +226,23 @@ body {
 }
 
 .blc_feature .heading .sub {
-    margin: 0
+    margin: 0;
+    width: auto;
 }
 
-.blc_feature:before {
+.blc_team {
+  position: relative;
+}
+
+.blc_team .heading {
+  text-align: left;
+}
+
+.blc_team .heading .title {
+  font-size: 40px;
+}
+
+.blc_feature:before, .blc_team::before {
     position: absolute;
     z-index: -2;
     top: 0;
@@ -293,7 +307,8 @@ body {
 
 .blc_what {
     position: relative;
-    overflow: hidden
+    overflow: hidden;
+    padding-bottom: 20px;
 }
 
 .blc_what .what {
@@ -510,4 +525,22 @@ body {
 
 .red {
     color: red
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    font-weight: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #3e50b5;
+    width: 180px;
+    height: 150px;
+    border-radius: 0 0 20px 20px;
+    line-height: 134px;
+  }
+
+  .navbar-brand img {
+    height: 105px !important;
+  }
 }
