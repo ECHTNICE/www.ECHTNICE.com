@@ -1,0 +1,29 @@
+{
+  "name": "asure",
+  "version": "1.0.0",
+  "description": "asure.io WebSite",
+  "main": "index.js",
+  "scripts": {
+    "build": "harp compile src docs",
+    "start": "harp server src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AsureFoundation/asure.io.git"
+  },
+  "keywords": [],
+  "author": "Paul Mizel <pmizel@asure.io>",
+  "contributors": [
+    "Fabian Raetz <fraetz@asure.io>",
+    "Gamal Schmuck <gschmuck@asure.io>",
+    "Andrey Kuchaev <akuchaev@asure.io>"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "harp": "^0.25.0",
+    "node-sass": "^4.9.0"
+  },
+  "dependencies": {
+    "html5-device-mockups": "^3.2.1"
+  }
+}

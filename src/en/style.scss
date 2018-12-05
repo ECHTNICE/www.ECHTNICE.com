@@ -8,7 +8,7 @@ $defaultcolor: #3c4a54;
 }
 
 .btn-primary {
-  background-color: #3949AB;
+  background-color: #154462;
   color: #fff;
 }
 
@@ -42,15 +42,15 @@ body {
     padding: 10px 42px;
 
     &.btn-primary {
-        color: #0475ed;
+        color: #154462;
         background-color: #fff;
         border-color: #fff;
     }
 }
 
 .btn-outline-success {
-    color: #0475ed;
-    border-color: #0475ed;
+    color: #154462;
+    border-color: #154462;
 }
 
 #header {
@@ -61,8 +61,8 @@ body {
     z-index: 99;
     text-align: center;
     line-height: 56px;
-    color: #0475ed;
-    background-color: #3F51B5;
+    color: #154462;
+    background-color: #154462;
 
     .navbar-brand {
         color: $topcolor;
@@ -88,7 +88,7 @@ body {
   position: relative;
   width: 100%;
   margin-left: -1px;
-  margin-top: 90px;
+  margin-top: 50px;
   background-size: 100% 525px;
   position: relative;
   background-position: center center;
@@ -163,14 +163,14 @@ body {
     padding-left: 15px;
 
     .btn-primary {
-      background-color: #3949AB;
+      background-color: #154462;
       color: #fff;
       margin-right: 30px;
     }
 
     .btn-default {
-      border: 1px solid #3949AB;
-      color: #3949AB;
+      border: 1px solid #154462;
+      color: #154462;
     }
   }
 

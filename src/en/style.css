@@ -58,8 +58,8 @@ body {
     z-index: 99;
     text-align: center;
     line-height: 56px;
-    color: #0475ed;
-    background-color: #3F51B5
+    color: #154462;
+    background-color: #154462
 }
 
 #header .navbar-brand {
@@ -83,7 +83,7 @@ body {
     position: relative;
     width: 100%;
     margin-left: -1px;
-    margin-top: 88px;
+    margin-top: 50px;
     background-size: 100% 525px;
     position: relative;
     background-position: center center;
@@ -533,7 +533,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background: #3e50b5;
+    background: #154462;
     width: 180px;
     height: 150px;
     border-radius: 0 0 20px 20px;
