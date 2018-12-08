@@ -84,6 +84,12 @@ body {
     }
 }
 
+.title{
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
 .blc_hero {
   position: relative;
   width: 100%;
@@ -131,7 +137,9 @@ body {
     color: #fff;
     width: 50%;
     font-weight: 300;
-    padding-top: 120px;
+    padding: 60px 15px 15px 15px;
+    margin-top: 60px;
+    background-color: #1a324a96;
 
     .logo {
       margin-bottom: 20px;
@@ -142,7 +150,7 @@ body {
     }
 
     .title {
-      font-size: 34px;
+      font-size: 32px;
       margin-bottom: 25px;
       font-weight: 400;
     }
@@ -218,6 +226,7 @@ body {
   margin-top: -120px;
   margin-bottom: 80px;
   position: relative;
+  padding-top: 120px;
 
   .heading {
     text-align: left;
@@ -244,11 +253,6 @@ body {
 
   .head {
     margin-bottom: 40px;
-
-    .title {
-      font-size: 40px;
-      margin-bottom: 20px;
-    }
 
     .sub {
       line-height: 32px;
@@ -407,7 +411,7 @@ body {
 }
 
 .blc_why {
-  padding-top: 115px;
+  padding-top: 120px;
   padding-bottom: 115px;
 
   .item {
@@ -425,9 +429,31 @@ body {
     padding-bottom: 20px;
   }
 
-  .title {
-    font-size: 24px;
-    margin-bottom: 15px;
+  .entry {
+    font-size: 18px;
+    line-height: 26px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.blc_team {
+  padding-top: 60px;
+  padding-bottom: 0px;
+
+  .item {
+    min-height: 435px;
+    background-color: #fff;
+    text-align: center;
+    font-weight: 300;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.04);
+  }
+
+  .image {
+    padding-top: 40px;
+    padding-bottom: 20px;
   }
 
   .entry {
@@ -502,4 +528,8 @@ body {
 
 .red{
   color: red;
+}
+
+.hidden{
+  display: none !important;
 }
