@@ -20,8 +20,8 @@
   ],
   "license": "ISC",
   "devDependencies": {
-    "harp": "^0.25.0",
-    "node-sass": "^4.9.0"
+    "harp": "^0.30.1",
+    "node-sass": "^4.12.0"
   },
   "dependencies": {
     "html5-device-mockups": "^3.2.1"
