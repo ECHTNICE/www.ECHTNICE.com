@@ -14,11 +14,21 @@ $defaultcolor: #3c4a54;
 
 body {
   font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
-  font-size: 1.35714286em;
-  line-height: 1.68421053em;
+  font-size: 1em;
+  line-height: 1.5em;
   font-weight: 400;
   background: #f9fafc;
   color: $defaultcolor;
+}
+
+.address{
+  p{
+    font-size: 0.75em;
+  }
+}
+
+.justify {
+  text-align: justify
 }
 
 .heading {
@@ -27,6 +37,7 @@ body {
 
   .title {
     font-size: 2em;
+    font-weight: 700;
     margin-bottom: 10px;
   }
 
@@ -65,6 +76,10 @@ body {
   color: #154462;
   background-color: #154462;
 
+  background: linear-gradient(90deg, #72c0b9 0%, #72c0b9 20%, #185a9d 100%);
+  background-size: 400% 400%;
+  animation: change 59s ease infinite;
+  
   .navbar-brand {
     color: $topcolor;
     font-size: 32px;
@@ -86,11 +101,11 @@ body {
 }
 
 .title {
-  font-size: 40px;
-  font-weight: 300;
+  font-size: 2em;
+  font-weight: 700;
   margin-bottom: 10px;
 }
-
+/*
 .blc_hero {
   position: relative;
   width: 100%;
@@ -135,7 +150,6 @@ body {
 
   .hero {
     color: #fff;
-    width: 50%;
     font-weight: 300;
     padding: 60px 15px 15px 15px;
     margin-top: 60px;
@@ -219,6 +233,108 @@ body {
     }
   }
 }
+*/
+
+.blc_hero {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  position: relative;
+  margin-top: -50px;
+  
+  .container{
+    margin-top: 150px;
+  }
+  
+  .heading {
+    text-align: left;
+    color: #fff;
+  }
+/*
+  &:before {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    -webkit-transform: skewY(6deg);
+    -ms-transform: skewY(6deg);
+    transform: skewY(6deg);
+  }
+*/
+  &:after {
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    -webkit-transform: skewY(6deg);
+    -ms-transform: skewY(6deg);
+    transform: skewY(6deg);
+    background-color: #ffffff;
+    box-shadow: inset 0 10px 40px -5px rgba(0, 0, 0, 0.1), inset 0 -10px 40px -5px rgba(0, 0, 0, 0.1);
+    backface-visibility: initial;
+    -webkit-backface-visibility: hidden;
+    box-shadow: none;
+    background: linear-gradient(90deg, #72c0b9 0%, #72c0b9 20%, #185a9d 100%);
+    background-size: 400% 400%;
+    animation: change 59s ease infinite;
+  }
+
+  .hero {
+    color: #fff;
+    font-weight: 300;
+    padding: 15px 15px 15px 15px;
+    margin-top: 60px;
+    background-color: rgba(26, 50, 74, 0.5);
+
+    .logo {
+      margin-bottom: 20px;
+
+      img {
+        width: 70px;
+      }
+    }
+
+    .title {
+      font-size: 32px;
+      margin-bottom: 25px;
+      font-weight: 400;
+    }
+
+    p {
+      font-size: 19px;
+      line-height: 30px;
+    }
+
+    strong {
+      display: block;
+      font-weight: 500;
+    }
+  }
+  
+  .col-md-3 {
+    text-align: center;
+    margin-bottom: 20px;
+
+    img {
+      filter: grayscale(100%);
+      opacity: 0.7;
+      transition: all 200ms linear;
+    }
+
+    &:hover {
+      img {
+        filter: grayscale(0%);
+        opacity: 1;
+      }
+    }
+  }
+}
+
 
 .blc_feature {
   z-index: 10;
@@ -317,7 +433,7 @@ body {
   }
 }
 
-.blc_clients {
+.blc_games {
   padding-top: 80px;
   padding-bottom: 120px;
   position: relative;
@@ -358,6 +474,8 @@ body {
     -webkit-backface-visibility: hidden;
     box-shadow: none;
     background: linear-gradient(90deg, #72c0b9 0%, #72c0b9 20%, #185a9d 100%);
+    background-size: 400% 400%;
+    animation: change 59s ease infinite;
   }
 
   .col-md-3 {
@@ -581,4 +699,26 @@ body {
 
 .blc_why li {
   border-bottom: 1px solid #59a3b1;
+}
+
+
+@-webkit-keyframes change {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes change {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-o-keyframes change {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes change {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
