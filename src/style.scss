@@ -435,11 +435,15 @@ strong.text-block {
   }
 }
 
-.blc_games {
+.blc_team {
   padding-top: 120px;
   padding-bottom: 120px;
   position: relative;
 
+  .heading{
+    color: white;
+  }
+  
   &:before {
     position: absolute;
     z-index: -1;
@@ -551,7 +555,7 @@ strong.text-block {
 
 .blc_team {
   padding-top: 60px;
-  padding-bottom: 0px;
+  padding-bottom: 60px;
 
   .item {
     min-height: 435px;
@@ -693,6 +697,44 @@ strong.text-block {
 .blc_why li {
   border-bottom: 1px solid #59a3b1;
 }
+
+
+.social {
+  padding-top: 50px;
+  text-align: center
+}
+
+.social a {
+  font-size: 28px;
+  margin-right: 5px;
+  color: #444;
+  text-decoration: none
+}
+
+.social a:hover {
+  color: #2877bd
+}
+
+.social a svg {
+  width: 30px;
+  height: 30px
+}
+
+@media (min-width: 992px) {
+  .social a {
+    font-size:48px;
+    margin-right: 30px
+  }
+}
+
+.social.social-dark a {
+  color: #7ec5b7
+}
+
+.social.social-dark a:hover {
+  color: #52c5b0
+}
+
 
 
 @-webkit-keyframes change {
