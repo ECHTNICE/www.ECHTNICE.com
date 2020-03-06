@@ -274,11 +274,7 @@ body {
     -webkit-transform: skewY(6deg);
     -ms-transform: skewY(6deg);
     transform: skewY(6deg);
-    background-color: #ffffff;
-    box-shadow: inset 0 10px 40px -5px rgba(0, 0, 0, 0.1), inset 0 -10px 40px -5px rgba(0, 0, 0, 0.1);
     backface-visibility: initial;
-    -webkit-backface-visibility: hidden;
-    box-shadow: none;
     background: linear-gradient(90deg, #72c0b9 0%, #72c0b9 20%, #185a9d 100%);
     background-size: 400% 400%;
     animation: change 59s ease infinite;
@@ -464,15 +460,10 @@ body {
     width: 100%;
     height: 100%;
     content: "";
-    -webkit-transform: skewY(6deg);
-    -ms-transform: skewY(6deg);
-    transform: skewY(6deg);
-    background-color: #ffffff;
-    box-shadow: inset 0 10px 40px -5px rgba(0, 0, 0, 0.1),
-      inset 0 -10px 40px -5px rgba(0, 0, 0, 0.1);
+    -webkit-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg);
+    transform: skewY(-2deg);
     backface-visibility: initial;
-    -webkit-backface-visibility: hidden;
-    box-shadow: none;
     background: linear-gradient(90deg, #72c0b9 0%, #72c0b9 20%, #185a9d 100%);
     background-size: 400% 400%;
     animation: change 59s ease infinite;
