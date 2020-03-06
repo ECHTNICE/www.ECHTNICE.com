@@ -21,8 +21,8 @@ body {
   color: $defaultcolor;
 }
 
-.address{
-  p{
+.address {
+  p {
     font-size: 0.75em;
   }
 }
@@ -79,7 +79,7 @@ body {
   background: linear-gradient(90deg, #72c0b9 0%, #72c0b9 20%, #185a9d 100%);
   background-size: 400% 400%;
   animation: change 59s ease infinite;
-  
+
   .navbar-brand {
     color: $topcolor;
     font-size: 32px;
@@ -100,11 +100,16 @@ body {
   }
 }
 
+strong.text-block {
+  display: block;
+}
+
 .title {
   font-size: 2em;
   font-weight: 700;
   margin-bottom: 10px;
 }
+
 /*
 .blc_hero {
   position: relative;
@@ -240,29 +245,30 @@ body {
   padding-bottom: 120px;
   position: relative;
   margin-top: -50px;
-  
-  .container{
+
+  .container {
     margin-top: 150px;
   }
-  
+
   .heading {
     text-align: left;
     color: #fff;
   }
-/*
-  &:before {
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: "";
-    -webkit-transform: skewY(6deg);
-    -ms-transform: skewY(6deg);
-    transform: skewY(6deg);
-  }
-*/
+
+  /*
+    &:before {
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      content: "";
+      -webkit-transform: skewY(6deg);
+      -ms-transform: skewY(6deg);
+      transform: skewY(6deg);
+    }
+  */
   &:after {
     position: absolute;
     z-index: -2;
@@ -311,7 +317,7 @@ body {
       font-weight: 500;
     }
   }
-  
+
   .col-md-3 {
     text-align: center;
     margin-bottom: 20px;
@@ -359,7 +365,7 @@ body {
     transform: skewY(6deg);
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 40px -5px inset,
-      rgba(0, 0, 0, 0.1) 0px -10px 40px -5px inset;
+    rgba(0, 0, 0, 0.1) 0px -10px 40px -5px inset;
     backface-visibility: hidden;
   }
 
@@ -574,21 +580,21 @@ body {
   margin: 0;
   background: #9052b4; /* Old browsers */
   background: -moz-linear-gradient(
-    left,
-    #9052b4 0%,
-    #4368f3 100%
+                  left,
+                  #9052b4 0%,
+                  #4368f3 100%
   ); /* FF3.6-15 */
   background: -webkit-linear-gradient(
-    left,
-    #9052b4 0%,
-    #4368f3 100%
+                  left,
+                  #9052b4 0%,
+                  #4368f3 100%
   ); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(
-    to right,
-    #9052b4 0%,
-    #4368f3 100%
+                  to right,
+                  #9052b4 0%,
+                  #4368f3 100%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9052b4', endColorstr='#4368f3',GradientType=1 ); /* IE6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9052b4', endColorstr='#4368f3', GradientType=1); /* IE6-9 */
   .container {
     height: 400px;
   }
@@ -690,22 +696,49 @@ body {
 
 
 @-webkit-keyframes change {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
 }
+
 @-moz-keyframes change {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
 }
+
 @-o-keyframes change {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
 }
+
 @keyframes change {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
 }
