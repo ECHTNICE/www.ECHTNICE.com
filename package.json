@@ -1,5 +1,6 @@
 {
-  "name": "asure",
+  "name": "www.echtnice.com",
+  "private": true,
   "version": "1.0.0",
   "description": "asure.io WebSite",
   "main": "index.js",
@@ -14,14 +15,12 @@
   "keywords": [],
   "author": "Paul Mizel <pmizel@asure.io>",
   "contributors": [
-    "Fabian Raetz <fraetz@asure.io>",
-    "Gamal Schmuck <gschmuck@asure.io>",
-    "Andrey Kuchaev <akuchaev@asure.io>"
+    "Fabian Raetz <fraetz@asure.io>"
   ],
   "license": "ISC",
   "devDependencies": {
-    "harp": "^0.30.1",
-    "node-sass": "^4.12.0"
+    "harp": "^0.31.0",
+    "node-sass": "^4.13.0"
   },
   "dependencies": {
     "html5-device-mockups": "^3.2.1"
