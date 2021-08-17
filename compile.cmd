@@ -1,2 +1,2 @@
-harp compile src docs
+harp src docs
 pause

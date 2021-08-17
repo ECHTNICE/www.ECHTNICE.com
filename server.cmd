@@ -1,2 +1,2 @@
-harp server src
+harp src
 pause
